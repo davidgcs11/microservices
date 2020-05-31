@@ -7,9 +7,11 @@ A simple application to test microservices, will be using 1 client (ApiGateway),
 $ docker-compose up
 ```
 2. Once completed try doing a POST request
+- Url
 ```bash
 localhost:3000
 ```
+- Body
 ```bash
 {
   "languages": ["Typescript 💻", "Python 🐍", "Dart 📱"]
