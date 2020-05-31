@@ -6,6 +6,6 @@ A simple application to test microservices, will be using 1 client (ApiGateway),
 - Redis Transport ✔️
 
 # Docker
-- ApiGateway ❌
-- DeveloperMicroservice ❌
-- Redis ❌
+- ApiGateway ✔️
+- DeveloperMicroservice ✔️
+- Redis ✔️
