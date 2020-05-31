@@ -6,7 +6,7 @@ export class AppService {
   private clientProxy: ClientProxy;
 
   constructor() {
-    const clientConfig: ClientOptions = { transport: Transport.TCP, options: { host: '127.0.0.1', port: 3001 } };
+    const clientConfig: ClientOptions = { transport: Transport.REDIS, options: { url: 'redis://127.0.0.1:3002' } };
     this.clientProxy = ClientProxyFactory.create(clientConfig);
   }
 
