@@ -3,3 +3,9 @@ A simple application to test microservices, will be using 1 client (ApiGateway),
 
 # Branches available:
 - TCP Transport ✔️
+- Redis Transport ✔️
+
+# Docker
+- ApiGateway ❌
+- DeveloperMicroservice ❌
+- Redis ❌
