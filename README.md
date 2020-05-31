@@ -7,7 +7,7 @@ Just clone the repo and run
 $ docker-compose up
 ```
 
-# Branches available:
+# Branches available
 - TCP Transport ✔️
 - Redis Transport ✔️
 
